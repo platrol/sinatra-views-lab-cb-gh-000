@@ -1,12 +1,12 @@
 class App < Sinatra::Base
 
-	
+
 
 	get '/hello' do
 		erb :hello
 	end
 
-	get '/goodbye.erb' do
+	get '/goodbye' do
 		erb :goodbye
 	end
 

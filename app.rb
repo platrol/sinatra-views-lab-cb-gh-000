@@ -4,5 +4,17 @@ class App < Sinatra::Base
 		erb :index
 	end
 
+	get '/hello' do
+		erb :hello
+	end
+
+	get '/goodbye.erb' do
+		erb :goodbye
+	end
+
+	get '/date.erb' do
+		erb :date
+	end
+
 
 end
